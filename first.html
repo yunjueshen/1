@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>这是标签</title>
+    <style>
+        .try {
+            color: red;
+        }
+
+        .try:hover {
+            color: blue;
+        }
+
+        .how_do {
+            text-align: center;
+            color:aqua;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+
+        p:first-child {
+            background-color: black;
+        }
+
+        #first_class {
+            background-color: #09d0f3;
+            height: 224px;
+            width: 80%;
+        }
+
+        a span {
+            color: #e90518
+        }
+
+        p span {
+            color: #3fec1c
+        }
+
+        #second {
+            background-color:#daaeae
+        }
+
+        #ABCD {
+
+            list-style-type: upper-alpha;
+        } 
+    </style>
+</head>
+<body>
+    <div id="first_class">
+        <h1 class="how_do">你在干嘛？</h1>
+        <p class="try">让我们尝试一下</p>
+        <i>斜体</i>
+        <s>删除线</s>
+        <u>下划线</u>
+        <b>加粗</b>
+        <p>换<br>行</p>
+        <p>word</p>
+    </div>
+    <div id="second">
+        <a href="images/介绍猜是谁.jpg">
+            <img src="images/介绍猜是谁.jpg" width="300px" height="80px" alt="识">
+        </a>
+        <br>
+        <a href="https://np.baicizhan.com/" target="_blank"><span>新</span>页面打开<span>夜曲</span>官网</a>
+        <br>
+        <a href="https://np.baicizhan.com/" target="_self"><span>本</span>页面打开<span>夜曲</span>官网</a>
+        <br>
+        <a href="#how_do">回到<span>h1</span>位置</a>
+        <br>
+        <p>look <span>span</span> color</p>
+        <!-- <a href="./aboutme.html">
+            <img src="images/黑魔法---全.jpg" width="230px" height="80px" alt="头像">
+        </a> -->
+    </div>
+    <div>
+        <ol>
+            <li>王者荣耀</li>
+            <li>和平精英</li>
+            <li>梦幻西游</li>
+        </ol>
+        <ol id="ABCD">
+            <li>王者荣耀</li>
+            <li>和平精英</li>
+            <li>梦幻西游</li>
+            <li>
+                <a href="https://np.baicizhan.com/website/lessons" target="_blank">网页开发</a>
+            </li>
+        </ol>
+        <a href="http://nocturne.bczcdn.com/img/1653472875025_87929/8-16%20(2).png" target="_self"><img src="http://nocturne.bczcdn.com/img/1653472875025_87929/8-16%20(2).png" weight="300px" height="230px"></a>
+    </div>
+</body>
+</html>
